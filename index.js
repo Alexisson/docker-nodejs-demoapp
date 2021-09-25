@@ -7,7 +7,7 @@ import mongoose from "mongoose";
 import dbIndex from "./models/idx.js";
 import dotenv from "dotenv";
 
-const PORT = 5000;
+const PORT = 80;
 dotenv.config();
 
 const app = express();
